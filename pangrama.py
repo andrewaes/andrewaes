@@ -7,6 +7,9 @@ qtd_letras = 0
 for i in lista[0:]:
     if i in pangrama:
         qtd_letras += 1
-print(qtd_letras)
 
+if qtd_letras == 23:
+    print("sim")
+else:
+    print("nao")
         
